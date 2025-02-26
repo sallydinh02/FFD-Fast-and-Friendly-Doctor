@@ -48,9 +48,6 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.5.0'
     implementation 'androidx.navigation:navigation-ui:2.5.0'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
-    implementation fileTree(dir: 'F:\\Tai lieu hoc tap\\Nam2_2021_2022\\Tai lieu hoc tren lop\\HK3\\Mobile Device Application Development\\Final_Project\\Doctor-appointment-final\\app\\src\\libs', include: ['*.aar', '*.jar'], exclude: [])
-    implementation fileTree(dir: 'D:\\Learning\\Computer_Science\\CS426\\Final\\Doctor-appointment-final\\app\\src\\libs', include: ['*.aar', '*.jar'], exclude: [])
-    implementation fileTree(dir: 'D:\\2.Year2\\Semester3\\CS426_MobileAppDevelopment\\1 Final\\Final submission\\Doctor-appointment-final\\app\\src\\libs', include: ['*.aar', '*.jar'], exclude: [])
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
