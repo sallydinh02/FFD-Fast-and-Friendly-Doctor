@@ -75,7 +75,7 @@ public class DoctorVideoCallFragment extends Fragment {
                 try {
                     JitsiMeetConferenceOptions options = new JitsiMeetConferenceOptions.Builder()
                             .setServerURL(new URL("https://meet.jit.si"))
-                            .setRoom("test189")
+                            .setRoom("xxx")
                             .setAudioMuted(false)
                             .setVideoMuted(false)
                             .setAudioOnly(false)
