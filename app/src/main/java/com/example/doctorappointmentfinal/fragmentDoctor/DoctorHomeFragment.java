@@ -104,7 +104,7 @@ public class DoctorHomeFragment extends Fragment implements DoctorHomescreenAppo
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         recyclerViewAppointmentPatientHome.setLayoutManager(linearLayoutManager);
-// Xu ly backend
+
         ArrayList<Order> doctorAppointmentLists = new ArrayList<>();
         db.collection("Orders").whereEqualTo("DoctorID", Doctor.CurrentDoctor.ID).get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
